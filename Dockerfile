@@ -8,7 +8,7 @@ COPY . /main
 RUN pip install requests
 
 # Set the working directory inside the image
-WORKDIR /app
+WORKDIR /main
 
 # Expose any necessary ports (optional)
 EXPOSE 8080
