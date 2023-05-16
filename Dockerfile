@@ -5,7 +5,7 @@ FROM python:3.9
 COPY . /main
 
 # Run any desired commands to set up the image
-RUN pip install -r requirements.txt
+RUN pip install requests
 
 # Set the working directory inside the image
 WORKDIR /app
